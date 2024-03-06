@@ -373,7 +373,7 @@ public class QRCodeReaderView extends SurfaceView
             } catch (ChecksumException e) {
                 SimpleLog.d(TAG, "ChecksumException", e);
             } catch (NotFoundException e) {
-                SimpleLog.d(TAG, "No QR Code found");
+                SimpleLog.d(TAG, "No QR Code found test");
             } catch (FormatException e) {
                 SimpleLog.d(TAG, "FormatException", e);
             } finally {
